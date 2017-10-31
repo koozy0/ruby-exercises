@@ -18,4 +18,8 @@ contacts = {
   Daniel: '777-777-7777'
 }
 
-contacts.each { |name, number| p "#{name}: #{number}" }
+def print_contacts(contacts)
+  contacts.each { |name, number| p "#{name}: #{number}" }
+end
+
+print_contacts contacts

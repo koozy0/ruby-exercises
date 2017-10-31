@@ -14,4 +14,4 @@ def factorial(number)
   (number == 0) ? 1 : number * factorial(number-1)
 end
 
-p factorial(5)
+p factorial 5
