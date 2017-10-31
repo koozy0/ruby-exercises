@@ -11,7 +11,7 @@
 # > 15
 
 def multiply_by(array, number)
-  array.each { |element| p element * number }
+  array.map { |element| element * number }
 end
 
-multiply_by [1,2,3], 5
+p multiply_by [1,2,3], 5
