@@ -19,7 +19,7 @@ contacts = {
 }
 
 def print_contacts(contacts)
-  contacts.each { |name, number| p "#{name}: #{number}" }
+  contacts.each { |name, number| p "#{name} has a phone number of #{number}" }
 end
 
 print_contacts contacts
