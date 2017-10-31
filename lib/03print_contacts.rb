@@ -17,3 +17,5 @@ contacts = {
   Lenny: '444-444-4444',
   Daniel: '777-777-7777'
 }
+
+contacts.each { |name, number| p "#{name}: #{number}" }

@@ -9,3 +9,9 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+def p_times(str, num)
+  num.times { p str }
+end
+
+p_times("hello", 3)
