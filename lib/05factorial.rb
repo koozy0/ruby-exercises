@@ -10,7 +10,20 @@
 # > 120
 #
 
+5! = 5 * 24
+4! = 24
+3! = 6
+2! = 2
+1! = 1
+
 def factorial(number)
+  # # base case
+  # if number == 1
+  #   1
+  # # recursive case
+  # else
+  #   number * factorial(number - 1)
+  # end
   (number == 1) ? 1 : number * factorial(number-1)
 end
 

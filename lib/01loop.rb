@@ -9,7 +9,6 @@
 # > Hello there
 # > Hello there
 # > Hello there
-
 def p_times(str, num)
   num.times { p str }
 end
